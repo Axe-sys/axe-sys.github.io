@@ -1,0 +1,256 @@
+.c-link{
+    color:#F57F17 !important;
+}
+
+.c-nav{
+    background-color: #FFF176 !important;
+}
+
+.get-gugi{
+    font-family: 'Gugi', cursive !important;
+}
+
+.get-exo{
+    font-family: 'Exo', sans-serif !important;
+    text-transform: uppercase;
+}
+
+#avatar{
+    max-width: 300px;
+}
+
+
+
+.jumbotron{
+    background-image: url("../img/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 5px black;
+}
+
+.c-plink > a{
+    text-decoration: none;
+    color: white;
+}
+
+.c-plink > a:hover{
+    text-decoration: underline;
+}
+
+
+#graphic-work{
+    background-color: #B39DDB;
+    padding-bottom: 7rem !important;
+}
+
+#software{
+    background-color: #FFE082;
+    padding-bottom: 7rem !important;
+}
+
+#music{
+    background-color: #81D4FA;
+    padding-bottom: 7rem !important;
+}
+
+.fa-instagram{
+    color: #e1306c !important;
+    
+}
+
+.fa-pinterest-square{
+    color: #bd081c !important;
+}
+
+.fa-facebook-square{
+    color: #3b5998 !important;
+}
+
+.fa-linkedin {
+    color: #0077b5 !important; 
+}
+
+.prev-desc{
+    padding-top: 1rem;
+    text-align: left !important
+
+}
+
+/* copied from bootsnipp */
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #F06292 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+/* responsive design */
+@media (max-width: 575px) {
+    #avatar{
+        max-width: 200px;
+    }
+
+    .prev{
+        max-width: 100%;
+        padding: 1em;
+    }
+
+    h1{
+        font-size: 3.5rem !important;
+    }
+
+    .c-plink{
+        font-size: 1.4rem !important;
+    }
+
+    .display-5{
+        text-align: center !important;
+        padding-top: 1rem;
+    }
+
+    .jumbotron{
+        max-height: 100vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    #avatar{
+        max-width: 300px;
+    }
+
+    .prev{
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+
+    .c-plink{
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 768px){
+    .prev{
+        width: 650px;
+    }
+
+
+}
+
+@media (max-width: 360px){
+    #avatar{
+        max-width: 200px;
+    }
+
+    h1{
+        font-size: 2.5rem !important;
+    }
+
+    .c-plink{
+        font-size: 1rem !important;
+    }
+
+    .display-4{
+        font-size: 2.2rem !important;
+    }
+
+    .display-5{
+        font-size: 1.4rem !important;
+    }
+}
+
+@media (max-width: 320px){
+    #avatar{
+        max-width: 200px;
+    }
+
+    h1{
+        font-size: 2.5rem !important;
+    }
+
+    .c-plink{
+        font-size: 1rem !important;
+    }
+
+    .display-4{
+        font-size: 2.2rem !important;
+    }
+
+    .display-5{
+        font-size: 1.4rem !important;
+    }
+}
+
+
